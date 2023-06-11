@@ -1,0 +1,97 @@
+Last sesssion : Build tool Introduction
+
+Today's session : Working with Maven
+-------------------------------------------------
+03-Aug-2020
+--------------------------------------------------------
+What is Build tool ?
+---------------------
+Build tool is used to automate project build process.
+
+-> Compilation of source code
+
+-> Executing Unit Test cases
+
+-> Packaging Our application into jar/war format
+
+What are the advantages of going for build tools?
+-------------------------------------------------
+-> Manul steps can be automated
+
+-> Productivity of the team will be improved
+
+
+What are the build tools available in Market ?
+----------------------------------------------
+1) Ant  (Outdated)
+
+2) Maven
+
+3) Gradle
+
+What is Maven
+---------------------------------------------
+-> Maven is one of the build tool given by Apache Organization.
+
+-> Maven provided 1500+ Project Templates
+
+-> Maven can download required jars for project development
+
+-> Maven Will add jars to classpath
+
+-> Maven will compile source code
+
+-> Maven will execute Junits
+
+-> Maven will package our application in jar/war format
+
+-> It will maintain standard project folder structure
+
+Maven Setup
+-----------
+-> Download Maven Binary Distribution from Apache website and extract it
+
+-> Add MAVEN_HOME to environment variables (upto maven root folder, not inside bin)
+
+Verify Maven Setup In PC
+------------------------
+-> Open Command Prompt
+
+-> Execute below command 
+
+	> mvn -version
+
+Note: If it displays maven version, then we are good with maven setup in our machine.
+
+Note: If maven home setup is not done, above command will give output as 'mvn' is not recognized.
+
+
+-> Maven can be used from Command Prompt as well as Maven can be used in IDE.
+
+-> All Java and JEE IDEs are having built in support for working with Maven.
+
+
+
+
+
+Working with Maven in Spring Tool Suite (STS) IDE
+-------------------------------------------------
+
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-aop</artifactId>
+    <version>5.2.8.RELEASE</version>
+</dependency>
+
+
+Facebook Group name : Ashok IT
+
+
+
+
+
+
+
+
+
