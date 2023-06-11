@@ -1,0 +1,92 @@
+Yesterday's session : pom.xml file and maven project structure
+
+Today's session : Maven Repositories
+-------------------------------------------------
+
+-> Maven is maintaing below 3 types of Repository
+
+	1) Central Repository
+
+	2) Local Repository
+
+	3) Remote Repository
+
+-> When we add dependency in pom.xml file, maven will download that dependency from Central Repository which is maintaining by Apache.
+
+-> First time only it will download from Central Repository and it will keep in Local Repository
+
+-> Local Repository will be created in our System.
+
+Note: In Windows 10, Local repository will be available in below location
+
+	C:\\Users\username\.m2\repository
+
+Can we change Maven Local Repository Location?
+----------------------------------------------
+Yes, we can do that.
+
+Procedure to change Maven Local Repo location
+----------------------------------------------
+-> Go to Maven_Home Folder
+-> Navigate to conf folder
+-> Open settings.xml file
+-> Change Local repo location
+
+
+Syntax
+------
+  <localRepository>E://Local-Repo</localRepository>
+
+What is Remote Repository?
+--------------------------
+In Reatlime, companies will maintain their own repository that is called as Remote repository.
+
+-> Remote repository details will be configured in settings.xml file
+
+-> If we want to connect to remore repository, we should add settings.xml file in IDE.
+
+How to use remote Repository
+------------------------------
+Eclipse Menu -> Window -> Preferences -> Maven --> User Settings -> Add user settings --> import settings.xml file which contains remote repository location.
+
+Maven Goals
+-----------
+-> Maven provided several goals to perform build proess. 
+
+-> When we execute maven goal, it executes    corresponding plugin to perform build action
+
+clean : Delete target folder
+
+compile : compile source code
+
+test :  Execute JUnits
+
+package : create jar or war based on packaging type
+
+install : To install our project into local repo as a dependency to use in other projects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
