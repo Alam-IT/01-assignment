@@ -3,6 +3,10 @@ Yesterday's session : pom.xml file and maven project structure
 Today's session : Maven Repositories
 -------------------------------------------------
 
+
+
+
+
 -> Maven is maintaing below 3 types of Repository
 
 	1) Central Repository
